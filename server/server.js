@@ -26,6 +26,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://learn.devendrajat.com"
     ],
     credentials: true,
   })
